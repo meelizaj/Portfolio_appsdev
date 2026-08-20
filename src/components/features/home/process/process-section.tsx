@@ -1,4 +1,4 @@
-export default function(){
+export default function ProcessSection(){
   const process = [
   ["01", "Discover", "I learn about the project, its users, and the main goals."],
   ["02", "Plan", "I organize ideas and create a clear structure for the design."],

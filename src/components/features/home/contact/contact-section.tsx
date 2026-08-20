@@ -1,4 +1,4 @@
-export default function(){
+export default function ContactSection(){
   return(
     <section id="contact" className="mx-auto grid max-w-[1350px] gap-0 px-7 pb-10 md:grid-cols-3 md:px-12 lg:px-20">
         <div className="relative min-h-[290px] overflow-hidden bg-[#dbd9ca] px-10 py-10">

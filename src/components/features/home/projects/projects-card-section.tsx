@@ -2,7 +2,7 @@ import  image1  from "@/_imgs/Alcabs.png"
 import image2 from "@/_imgs/Portfolio.png"
 import image3 from "@/_imgs/Case Study.png"
 
-export default function(){
+export default function ProjectsSection(){
   const projects = [
     {
       title: "Alcabs Eatery",
