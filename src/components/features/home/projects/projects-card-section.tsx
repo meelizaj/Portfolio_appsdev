@@ -36,7 +36,7 @@ export default function ProjectsSection(){
         </div>
         <div className="mt-6 grid gap-6 md:grid-cols-3">
           {projects.map((project) => (
-            <a href={project.web_link}>
+            <a className="hover:translate-y-[-5px] transition-all ease-in" href={project.web_link}>
               <article key={project.title}>
               <img className="aspect-[1.95] w-full object-cover" src={project.image} alt={`${project.title} brand project`} />
               <h3 className="mt-4 text-[14px] font-bold uppercase tracking-[0.06em] text-[#3f4137]">{project.title}</h3>
